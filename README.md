@@ -3,4 +3,4 @@ A simple machine learning based website which provides details of soil testing c
 # About Me 
 Greetings Everyone,
 I'm Shekhar Boppanapally from B V raju institute of technology,narsapur,medak,telangana
-If you have any doubt or want to contribute feel free to email me or hit me up on <img src="{https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/}" Linkedin/>
+If you have any doubt or want to contribute feel free to email me or hit me up on 
