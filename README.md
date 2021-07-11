@@ -3,7 +3,7 @@
 # About Me 
 Greetings Everyone,  
 I'm Shekhar Boppanapally from B V raju institute of technology,narsapur,medak,telangana  
-If you have any doubt or want to contribute feel free to [email](19211a0540@bvrit.ac.in) me or hit me up on [Linkedin](https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/)
+If you have any doubt or want to contribute feel free to connect  me up on [Linkedin](https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/)
 # Aim Of Project
 ->Our country is an Agricultural land  
 ->60% of the peoplr belongs to agricultural background    
@@ -29,13 +29,13 @@ If you have any doubt or want to contribute feel free to [email](19211a0540@bvri
 This website is deployed in Heroku you can access it [here](https://kisaan-help-desk.herokuapp.com/)  
 
 # Requirements  
-**Kaggle**    
-I collected the datasets from Kaggle to build my ML models
-**Google Colab**  
-I used the colab notebooks to build my ML models using Python Language  
-**Visula Studio Code**  
-I used VS Code editor for building my Front end using HTML and CSS and integrating it in Flask Frame works  
-**GitHub**  
+**Kaggle**      
+I collected the datasets from Kaggle to build my ML models  
+**Google Colab**    
+I used the colab notebooks to build my ML models using Python Language    
+**Visula Studio Code**    
+I used VS Code editor for building my Front end using HTML and CSS and integrating it in Flask Frame works    
+**GitHub**    
 I used github for Deployement and to store my Code for future reference    
 **Heroku**  
 I used Heroku to Deploy my project/website  
