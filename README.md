@@ -46,7 +46,9 @@ CSS
 Flask Frame Works  
 
 # Usage  
-**You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.**  
+**You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.  ![Screenshot (200)](https://user-images.githubusercontent.com/71584572/125191346-82d99480-e25f-11eb-9905-18f09e93da2a.png)
+
+© Copyright 2021 @shekhar Boppanapally**  
 
 
 # Future Improvements  
@@ -55,6 +57,9 @@ This was my first big project so there are lot of things to improve upon
 =>Frontend can be made more nicer (I suck at frontend development) 😢    
 =>Additional plant images can be collected to make the disease detection part more robust and generalized 🤕  
 =>Trying to add Crop yeild prediction😕  
+
+# ScreenShots 
+
 
 
 
