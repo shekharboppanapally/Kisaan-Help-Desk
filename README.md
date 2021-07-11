@@ -25,4 +25,18 @@ If you have any doubt or want to contribute feel free to [email](19211a0540@bvri
 **3.Fertilizer recommendation**:-Enter the nutrient contents of your soil and the crop you want to grow. The algorithm will tell which nutrient the soil has excess of or lacks. Accordingly, it will give suggestions for buying fertilizers.  
 **4.Crop Disease Prediction**:- Upload an image of leaf of your plant. The algorithm will tell the crop type and whether it is diseased or healthy. If it is diseased, it will tell you the cause of the disease and suggest you how to prevent/cure the disease accordingly  
 
+# Deployment 
+This website is deployed in Heroku you can access it [here](https://kisaan-help-desk.herokuapp.com/)  
+
+# Requirements  
+Kaggle  
+Google Colab  
+Visula Studi Code  
+GitHub  
+Heroku  
+**Languages**  
+Python   
+HTML  
+CSS  
+
 
