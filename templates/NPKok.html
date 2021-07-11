@@ -1,0 +1,51 @@
+<!Doctype Html>
+<html>
+    <style>
+ .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}     
+ div.a {
+  text-align: center;
+}
+div.d {
+  text-align: right;
+}       
+body {
+  
+        background-image:url("{{ url_for('static', filename='farmer.jpg') }}");
+        background-repeat: no-repeat;
+        background-size: 100% 90%;
+    }
+ </style> 
+
+<div class="d"><br>
+    <a href="{{ url_for('welcome') }}" style="font-size:25px" >&emsp;home 
+    <a href="{{ url_for('soil_test')}}" style="font-size:25px" >&emsp;Soiltest    
+    <a href="{{ url_for('fertilizer_rec') }}" style="font-size:25px" >&emsp;fertilizer
+    <a href="{{ url_for('crop_disease')}}" style="font-size:25px" >&emsp;disease
+    </a>
+</div>
+<div class ="a"><br><br><br><br><br><br>
+    <h1>Results</h1>
+
+    <body><h2>The levels of Nitrogen(N),phosphorus(P) and Potassium(K) are <br> moderate.No need to add any fertilizers /h2></body>   
+</div><br><br><br><br><br><br><br>
+<div class="container">
+  <img src="{{ url_for('static', filename='green.png') }}" alt="crop_disease" style="width:1440px;height:300px;">
+  <div class="centered">
+  <h1>ABOUT US</h1>
+  <h3>mady by SHEKHAR BOPPANAPALLY</h3>
+  <h3>© Copyright 2021 @shekhar Boppanapally</h3>
+  <h3>for more queries about KISAAN HELP DESK please contact me at</h3>
+  <a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/">Linkedln.com!</a><br>
+  <a href="https://github.com/shekharboppanapally">Github.com!</a><br>
+  <a href="mail to:19211a0540@bvrit.ac.in">mail.com!</a>.<br>
+</html>

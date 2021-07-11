@@ -1,0 +1,164 @@
+<!Doctype Html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+div.a {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+div.b {
+  text-align: center;
+}
+div.c {
+  text-align: center;
+}
+div.d {
+  text-align: right;
+  color: white;
+}
+div.e {
+  text-align: center;
+}
+body {
+  
+  background-image:url("{{ url_for('static', filename='homepage3.jpg') }}");
+  background-repeat: no-repeat;
+  background-size: 100% 25%;
+}
+
+</style>
+<div class="d"><br>
+<a href="{{ url_for('soil_test')}}" style="font-size:25px" >&emsp;Soiltest  
+<a href="{{ url_for('crop_prediction') }}" style="font-size:25px">&emsp;crop 
+<a href="{{ url_for('fertilizer_rec') }}" style="font-size:25px" >&emsp;fertilizer
+<a href="{{ url_for('crop_disease')}}" style="font-size:25px" >&emsp;disease
+
+  
+</a>
+</div>
+</head> 
+<body>
+<br><br><br><br><br><br>
+<div class="a">
+<p style="font-size:70px">KISAAN HELP DESK</p>
+<p style="font-size:30px">1Stop platform for all farmers in India </p>
+<h1>IF YOU ATE TODAY,THANK A FARMER</h1>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<div class ="b">
+<h1>OBJECTIVE<h1>
+<h3>IMPROVING AGRICULTURE, IMPROVING LIVES, <br>CULTIVATING CROPS TO MAKE FARMERS INCREASE PROFIT</h3>
+<h3>I used a state-of-the-art machine learning and deep learning<br>
+technologies to help you guide through the entire farming process.<br>
+Make informed decisions to understand the demographics of your area,<br> 
+understand the factors that affect your crop and<br>
+keep them healthy for a super awesome successful yield</h3>
+</div>
+<br><br><br>
+<div class ="c">
+<h1> OUR SERVICES </h1>
+</div>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<div class="row">
+  <div class="column">
+    <a href="{{ url_for('soil_test') }}">
+      <img src="{{ url_for('static', filename='soil_test.jpg') }}" style="width:420px;height:320px;">
+    
+    </a>
+  </div>
+  <div class="column">
+    <a href="{{ url_for('crop_prediction') }}">
+      <img src="{{ url_for('static', filename='croprec.jpg') }}" style="width:420px;height:320px;">
+    
+    </a>
+  </div>
+  <div class="column">
+    <a href="{{ url_for('fertilizer_rec')}}">
+      <img src="{{ url_for('static', filename='fertrec1.jpg') }}" style="width:420px;height:320px;">
+    
+    </a>
+  </div>
+</div>
+<br><br><br>
+<div class="row">
+  <div class="column">
+    <a href="{{ url_for('crop_disease') }}">
+      <img src="{{ url_for('static', filename='cropdisease.jpg') }}" style="width:420px;height:320px;">
+    
+    </a>
+  </div>
+  <div class="column">
+    <a href="{{ url_for('crop_disease') }}">
+      <img src="{{ url_for('static', filename='cropyeild.jpg') }}" style="width:420px;height:320px;">
+    
+    </a>
+  </div>
+  
+</div>
+<div class ="e">
+<h1>ABOUT OUR SERVICES</h1>
+<h2>SOIL TESTING CENTRE find out the nearest soil testing centre today to test your soil</h2>
+<h2>CROP RECOMMENDATION about the type of crops to be cultivated which is best suited in your farm</h2>
+<h2>FERTILIZER RECOMMENDATION about the type of fertilizer best suited for your particular soil/farm</h2>
+<h2>CROP DISEASE PREDICTION about the type of disease caused to your crop and suggesting how to prevent it</h2>
+<h2>CROP YEILD PREDICTION find out the  yeild of your crop you grown in your farm(temporary unavailable,redirected to crop disease)</h2>
+<br><br><br>
+ 
+<div class=b>
+  <video width="420" height="240" controls>
+    <source src="{{ url_for('static', filename='agri.mp4') }}" type="video/mp4">
+  </video>
+</div>
+
+<br><br><br><br><br>
+<div class="container">
+  <img src="{{ url_for('static', filename='green.png') }}" alt="crop_disease" style="width:1440px;height:350px;">
+  <div class="centered">
+  <h1>ABOUT US</h1>
+  <h3>made by SHEKHAR BOPPANAPALLY</h3>
+  <h3>© Copyright 2021 @shekhar Boppanapally</h3>
+  <h3>for more queries about KISAAN HELP DESK please connect me at</h3>
+  <a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/" style="font-size:25px">Linkedln.com!</a><br>
+  <a href="https://github.com/shekharboppanapally" style="font-size:25px">Github.com!</a><br>
+  <a href="mail to:19211a0540@bvrit.ac.in" style="font-size:25px">mail.com!</a>.<br> 
+
+  
+  </div>
+  </div>
+</style>
+
+</html>

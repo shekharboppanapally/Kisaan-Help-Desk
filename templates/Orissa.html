@@ -1,0 +1,128 @@
+<html>
+<head>
+<style>
+    div.a {
+  text-align: center;
+}
+div.b {
+  text-align: left;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+div.d {
+  text-align: right;
+}
+body {
+  
+  background-image:url("{{ url_for('static', filename='black.png') }}");
+  background-repeat: no-repeat;
+  background-size: 100% 10%;
+} 
+</style>
+
+<div class="d"><br>
+  <a href="{{ url_for('welcome') }}" style="font-size:25px" >&emsp;home 
+  <a href="{{ url_for('crop_prediction') }}" style="font-size:25px">&emsp;crop  
+  <a href="{{ url_for('fertilizer_rec') }}" style="font-size:25px" >&emsp;fertilizer
+  <a href="{{ url_for('crop_disease')}}" style="font-size:25px" >&emsp;disease
+  </a>
+</div>
+<div class="a"><br><br><br><br>
+<h1>Please select your District</h1>  
+<details>
+    <summary style="background-color:lightgreen;">Anugul</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Anugul</h4>
+        <h4>Lab Name 1: KVK ANGUL</h4>
+        <h4>Lab Name 2: STL, Angul</h4>
+        <h4>Lab Name 3: Soil Testing Laboratory,Angul	</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Bargarh</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Bargarh</h4>
+        <h4>Lab Name 1: Mobile Soil Testing Laboratory,Barharh</h4>
+        <h4>Lab Name 2: STL, Bargarh</h4>
+        <h4>Lab Name 3: Soil Testing Laboratory,Barharh</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Bhadrak</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Bhadrak</h4>
+        <h4>Lab Name 1: DAO office Campus,Bhadrak/h4>
+        <h4>Lab Name 2: STL,Bhadrak</h4>
+        <h4>Lab Name 3: Soil Testing Laboratory,Bhadrakh</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Cuttack</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Cuttack</h4>
+        <h4>Lab Name 1: MSTL, Cuttack/h4>
+        <h4>Lab Name 2: STL, Cuttack</h4>
+        <h4>Lab Name 3: Mobile Soil Testing Laboratory,Jagatpur</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 671-2491246</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Gajapati</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area: Gajapati</h4>
+        <h4>Lab Name 1: Mobile Soil Testing Laboratory,Gajapati</h4>
+        <h4>Lab Name 2: Soil Testing Laboratory,Gajapati</h4>
+        <h4>Lab Name 3: MSTL,Gajapati	</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+  <summary style="background-color:lightgreen;">Sambalpur</summary>
+      <h2>No of Centres:3</h2>
+      <div class="b">
+      <h4>Area: Sambalpur</h4>
+      <h4>Lab Name 1: Fertiliser Quality Control Laboratory,Modipura	</h4>
+      <h4>Lab Name 2: Mobile Soil Testing Laboratory,Modipara</h4>
+      <h4>Lab Name 3: Soil Testing Laboratory,Modipara	</h4>
+      <h4>Laboratory type:Soil Testing Laboratory</h4>
+      <h4>Mobile No: </h4>    
+  </div>
+</details>
+
+</head>        
+ 
+<br><br><br>
+
+<div class="container">
+  <img src="{{ url_for('static', filename='green.png') }}" alt="crop_disease" style="width:1440px;height:300px;">
+  <div class="centered">
+  <h1>ABOUT US</h1>
+  <h3>mady by SHEKHAR BOPPANAPALLY</h3>
+  <h3>© Copyright 2021 @shekhar Boppanapally</h3>
+  <h3>for more queries about KISAAN HELP DESK please contact me at</h3>
+  <a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/">Linkedln.com!</a><br>
+  <a href="https://github.com/shekharboppanapally">Github.com!</a><br>
+  <a href="mail to:19211a0540@bvrit.ac.in">mail.com!</a>.<br>
+</html>

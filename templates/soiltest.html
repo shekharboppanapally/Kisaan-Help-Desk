@@ -1,0 +1,103 @@
+<!Doctype Html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+x {
+  font-size: 20px;
+}
+
+div.a {
+  text-align: center;
+}
+div.b {
+  text-align: center;
+}
+div.c {
+  text-align: left;
+}
+div.d {
+  text-align: right;
+}
+body {
+  
+  background-image:url("{{ url_for('static', filename='farmer.jpg') }}");
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+}
+</style>
+<div class="d"><br>
+  <a href="{{ url_for('welcome') }}" style="font-size:25px" >&emsp;home 
+  <a href="{{ url_for('crop_prediction') }}" style="font-size:25px">&emsp;crop   
+  <a href="{{ url_for('fertilizer_rec') }}" style="font-size:25px" >&emsp;fertilizer
+  <a href="{{ url_for('crop_disease')}}" style="font-size:25px" >&emsp;disease
+  </a>
+  </div>
+<br><br><br><br>
+<div class="a"><br><br>
+<h1>Soil Testing Centres</h1>
+<form action="/submit2" method='post'>
+  <label for="state">Choose your State:</label>
+  <select id="state" name="state">
+    <option value="andhrapradesh">Andhra Pradesh</option>
+    <option value="arunachalpradesh">Anrunachal Pradesh</option>
+    <option value="assam">Assam</option>
+    <option value="bihar">Bihar</option>
+    <option value="chandigarh">Chandigarh</option>
+    <option value="chattisgarh">Chattisgarh</option>
+    <option value="delhi">Delhi</option>
+    <option value="gujarat">Gujarat</option>
+    <option value="haryana">Haryana</option>
+    <option value="himachalpradesh">Himachal Pradesh</option>
+    <option value="jammuandkashmir">Jammu and Kashmir</option>
+    <option value="jharkhand">Jharkhand</option>
+    <option value="karnataka">Karnataka</option>
+    <option value="kerala">Kerala</option>
+    <option value="madyapradesh">Madya Pradesh</option>
+    <option value="maharastra">Maharastra</option>
+    <option value="manipur">Manipur</option>
+    <option value="meghalaya">Meghalaya</option>
+    <option value="mizoram">Mizoram</option>
+    <option value="orissa">Orissa</option>
+    <option value="punjab">Punjab</option>
+    <option value="rajasthan">Rajasthan</option>
+    <option value="sikkim">Sikkim</option>
+    <option value="tamilnadu">Tamil Nadu</option>
+    <option value="telangana">Telangana</option>
+    <option value="uttarkhand">Uttarkhand</option>
+    <option value="uttarpradesh">Uttar Pradesh</option>
+    <option value="westbengal">West Bengal</option>
+    
+    
+  </select>
+  <input type="submit" value="Submit">
+</form>
+</div>
+</head>
+<br><br><br><br><br>
+<div class="container">
+  <img src="{{ url_for('static', filename='green.png') }}" alt="crop_disease" style="width:1440px;height:350px;">
+  <div class="centered">
+  <h1>ABOUT US</h1>
+  <h3>mady by SHEKHAR BOPPANAPALLY</h3>
+  <h3>© Copyright 2021 @shekhar Boppanapally</h3>
+  <h3>for more queries about KISAAN HELP DESK please contact me at</h3>
+  <a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/">Linkedln.com!</a><br>
+  <a href="https://github.com/shekharboppanapally">Github.com!</a><br>
+  <a href="mail to:19211a0540@bvrit.ac.in">mail.com!</a>.<br> 
+
+  
+  </div>
+  </div>
+</style>
+</html>

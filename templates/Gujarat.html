@@ -1,0 +1,181 @@
+<html>
+<head>
+<style>
+    div.a {
+  text-align: center;
+}
+div.b {
+  text-align: left;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+div.d {
+  text-align: right;
+}
+body {
+  
+  background-image:url("{{ url_for('static', filename='black.png') }}");
+  background-repeat: no-repeat;
+  background-size: 100% 10%;
+} 
+</style>
+
+<div class="d"><br>
+  <a href="{{ url_for('welcome') }}" style="font-size:25px" >&emsp;home 
+  <a href="{{ url_for('crop_prediction') }}" style="font-size:25px">&emsp;crop  
+  <a href="{{ url_for('fertilizer_rec') }}" style="font-size:25px" >&emsp;fertilizer
+  <a href="{{ url_for('crop_disease')}}" style="font-size:25px" >&emsp;disease
+  </a>
+</div>
+<div class="a"><br><br><br><br>
+<h1>Please select your District</h1>    
+<details>
+    <summary style="background-color:lightgreen;">Ahmadabad</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Ahmadabad</h4>
+        <h4>Lab Name 1: Assistant Director of Agriculture ,Ahmedabad</h4>
+        <h4>Lab Name 2: Soil Testing Laboratory,Jetalpur</h4>
+        <h4>Lab Name 3: K K SHAHJARODAVALA SCIENCE COLLEGE AHMEDABAD</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Amreli</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Amreli</h4>
+        <h4>Lab Name 1: Assistant Directore of Agriculture office,Amareli</h4>
+        <h4>Lab Name 2: Kamani Science College and Pratapray Arts College</h4>
+        <h4>Lab Name 3: Krushi vigyan Kendra Amreli</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Banas Kantha</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Banas Kantha</h4>
+        <h4>Lab Name 1: APMC DHANERA</h4>
+        <h4>Lab Name 2: APMC PALANPUR</h4>
+        <h4>Lab Name 3: APMC THARA</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Gandhi nagar</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Gandhi nagar</h4>
+        <h4>Lab Name 1: Soil Testing Laboratories,Gandhinagar</h4>
+        <h4>Lab Name 2: KVK Gandhinagar</h4>
+        <h4>Lab Name 3: APMC RANDHEJA</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 079-23975223</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Mahesana</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Mahesana</h4>
+        <h4>Lab Name 1: Krishi Vigyan Kendra,GanpatVidyanagar,Mahesana</h4>
+        <h4>Lab Name 2: MN SCIENCE COLLAGE VISANAGAR DIST MAHESANA</h4>
+        <h4>Lab Name 3: APMC VIJAPUR</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Navsari</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Navsari</h4>
+        <h4>Lab Name 1: Dep of Soil Science and Agriculture Chemistry,NMCA</h4>
+        <h4>Lab Name 2: Krushi Vigyan Kendra,NAU,Navsari</h4>
+        <h4>Lab Name 3: KVK NAVSARI</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 02637-282771,2637-282008</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Rajkot</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Rajkot</h4>
+        <h4>Lab Name 1: Soil Testing Laboratory,Rajkot</h4>
+        <h4>Lab Name 2: Shree Manjibhai Virani & Smt Nacalben Virani Science</h4>
+        <h4>Lab Name 3: MATRUSHRI VIRBAI SCIENCE COLLAGE RAJKOT</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No:</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Surat</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Surat</h4>
+        <h4>Lab Name 1: APMC SURAT</h4>
+        <h4>Lab Name 2: STL BARDOLI</h4>
+        <h4>Lab Name 3:Krushi Vigyan Kendra,Athwa lines,Surat</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 0261-2655565</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Vadodara</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Vadodora</h4>
+        <h4>Lab Name 1:Krushi Vigyan Kendra,Vadodara</h4>
+        <h4>Lab Name 2: Agriculture Produce Marketing Committee-Vadodara</h4>
+        <h4>Lab Name 3: Gujarat State Fertilizers Chemicals LTD</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 02665-243240,0265-3092494</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Valsad</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Valsad</h4>
+        <h4>Lab Name 1: APMC KAPRADA</h4>
+        <h4>Lab Name 2: STL PARDI</h4>
+        <h4>Lab Name 3: Agriculture Experimental Station,NAU</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 0260-2337227</h4>    
+    </div>
+</details>
+
+
+
+
+
+
+</head>        
+ 
+<br><br><br>
+
+<div class="container">
+  <img src="{{ url_for('static', filename='green.png') }}" alt="crop_disease" style="width:1440px;height:300px;">
+  <div class="centered">
+  <h1>ABOUT US</h1>
+  <h3>mady by SHEKHAR BOPPANAPALLY</h3>
+  <h3>© Copyright 2021 @shekhar Boppanapally</h3>
+  <h3>for more queries about KISAAN HELP DESK please contact me at</h3>
+  <a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/">Linkedln.com!</a><br>
+  <a href="https://github.com/shekharboppanapally">Github.com!</a><br>
+  <a href="mail to:19211a0540@bvrit.ac.in">mail.com!</a>.<br>
+</html>    

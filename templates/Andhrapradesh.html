@@ -1,0 +1,227 @@
+<html>
+<head>
+<style>
+    div.a {
+  text-align: center;
+}
+div.b {
+  text-align: left;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+div.d {
+  text-align: right;
+}
+body {
+  
+  background-image:url("{{ url_for('static', filename='black.png') }}");
+  background-repeat: no-repeat;
+  background-size: 100% 10%;
+} 
+</style>
+
+<div class="d"><br>
+  <a href="{{ url_for('welcome') }}" style="font-size:25px" >&emsp;home 
+  <a href="{{ url_for('crop_prediction') }}" style="font-size:25px">&emsp;crop  
+  <a href="{{ url_for('fertilizer_rec') }}" style="font-size:25px" >&emsp;fertilizer
+  <a href="{{ url_for('crop_disease')}}" style="font-size:25px" >&emsp;disease
+  </a>
+</div>
+<div class="a"><br><br><br><br>
+  <h1>Please select your District</h1>
+<details>
+  <summary style="background-color:lightgreen;">Anantapur</summary>
+      <h2>No of Centres:3</h2>
+      <div class="b">
+      <h4>Area:Anantapur</h4>
+      <h4>Lab Name 1: Soil Testing Lab, Ananthapur</h4>
+      <h4>Lab Name 2: Assitant directorf Agriculture, FCO Lab,Ananthapur</h4>
+      <h4>Lab Name 3: Mandal Agriculture Office,Near MRO Office</h4>
+      <h4>Laboratory type:Soil Testing Laboratory</h4>
+      <h4>Mobile No: 05646-56565656  </h4>    
+    <div>
+</details>
+<details>
+  <summary style="background-color:lightgreen;">Chittoor</summary>
+      <h2>No of Centres:3</h2>
+      <div class="b">
+      <h4>Area:Chittoor</h4>
+      <h4>Lab Name 1: AMC, STL, Chittoor</h4>
+      <h4>Lab Name 2: Agricultural Officer,Chittoor</h4>
+      <h4>Lab Name 3: Mandal Agricultural Office,Chittoor1</h4>
+      <h4>Laboratory type:Soil Testing Laboratory</h4>
+      <h4>Mobile No: </h4>    
+    <div>
+</details>
+<details>
+  <summary style="background-color:lightgreen;">East Godavari</summary>
+      <h2>No of Centres:4</h2>
+      <div class="b">
+      <h4>Area:Ambajipeta</h4>
+      <h4>Lab Name 1: AMC, STL, Ambajipeta</h4>
+      <h4>Lab Name 2: Soil Testing Laboratory Ambajipeta</h4>
+      <h4>Area:Samalkota</h4>
+      <h4>Lab Name 1: Asst.Director of Agriculture SM & AR Farm</h4>
+      <h4>Lab Name 2: soil testing laboratory,samalkot</h4>
+      <h4>Laboratory type:Soil Testing Laboratory</h4>
+      <h4>Mobile No: </h4>    
+    <div>
+</details>
+<details>
+  <summary style="background-color:lightgreen;">Guntur</summary>
+      <h2>No of Centres:3</h2>
+      <div class="b">
+      <h4>Area:Guntur</h4>
+      <h4>Lab Name 1: Soil Testing Laboratory, NSP</h4>
+      <h4>Area:Narsaropet</h4>
+      <h4>Lab Name 2: AMC, STL, Narasaraopet</h4>
+      <h4>Lab Name 3: Soil Testing Laboratory, Marcket Yard</h4>
+      <h4>Laboratory type:Soil Testing Laboratory</h4>
+      <h4>Mobile No: </h4>    
+    <div>
+</details>
+<details>
+  <summary style="background-color:lightgreen;">Krishna</summary>
+      <h2>No of Centres:3</h2>
+      <div class="b">
+      <h4>Area:Gudivada</h4>
+      <h4>Lab Name 1: Assistant Director of Agriculture Gudivada</h4>
+      <h4>Lab Name 2: AMC, STL Gudiwada</h4>
+      <h4>Area:Machilipatnam</h4>
+      <h4>Lab Name 3: AMC, STL, Machilipatnam	</h4>
+      <h4>Laboratory type:Soil Testing Laboratory</h4>
+      <h4>Mobile No: 08672-252977</h4>    
+    <div>
+</details>
+<details>
+  <summary style="background-color:lightgreen;">Kurnool</summary>
+      <h2>No of Centres:3</h2>
+      <div class="b">
+      <h4>Area:Dhone</h4>
+      <h4>Lab Name 1: Agricultural Officer , Soil Testing Laboratory,Dhone</h4>
+      <h4>Lab Name 2: STL, Dhone</h4>
+      <h4>Area:Nandyal</h4>
+      <h4>Lab Name 3: Agricultural Officer , Soil Testing Laboratory,Nandyal	</h4>
+      <h4>Laboratory type:Soil Testing Laboratory</h4>
+      <h4>Mobile No: </h4>    
+    <div>
+</details>
+<details>
+  <summary style="background-color:lightgreen;">Prakasham</summary>
+      <h2>No of Centres:3</h2>
+      <div class="b">
+      <h4>Area:Kandukur</h4>
+      <h4>Lab Name 1: AMC, STL, Kandukur</h4>
+      <h4>Lab Name 2: AMC Soil testing lab Kandukur</h4>
+      <h4>Area:Ongole</h4>
+      <h4>Lab Name 3: STL, Ongole	</h4>
+      <h4>Laboratory type:Soil Testing Laboratory</h4>
+      <h4>Mobile No: 08598-223522,08592-281425</h4>    
+    <div>
+</details>
+<details>
+  <summary style="background-color:lightgreen;">Nellore</summary>
+      <h2>No of Centres:3</h2>
+      <div class="b">
+      <h4>Area:Nellore</h4>
+      <h4>Lab Name 1: Soil Testing Laboratory,Nellore</h4>
+      <h4>Lab Name 2: Mobile Soil Testing Laboratories,Nellore</h4>
+      <h4>Area:gudur</h4>
+      <h4>Lab Name 3: AMC, STL, Gudur	</h4>
+      <h4>Laboratory type:Soil Testing Laboratory</h4>
+      <h4>Mobile No: </h4>    
+    <div>
+</details>
+<details>
+  <summary style="background-color:lightgreen;">Srikakulam</summary>
+      <h2>No of Centres:3</h2>
+      <div class="b">
+      <h4>Area:Srikakulam</h4>
+      <h4>Lab Name 1: Asst.Director of Agriculture</h4>
+      <h4>Lab Name 2: PACS,Bathuva</h4>
+      <h4>Area:Palakonda</h4>
+      <h4>Lab Name 3:AMC, STL, Palakonda</h4>
+      <h4>Laboratory type:Soil Testing Laboratory</h4>
+      <h4>Mobile No: </h4>    
+    <div>
+</details>
+<details>
+  <summary style="background-color:lightgreen;">Vishakapatnam</summary>
+      <h2>No of Centres:3</h2>
+      <div class="b">
+      <h4>Area:Anakapalli</h4>
+      <h4>Lab Name 1: Assistant Director of Agriculture</h4>
+      <h4>Lab Name 2: Mandal Agricultural officer Anakapalli</h4>
+      <h4>Area:Vishakapatnam</h4>
+      <h4>Lab Name 3:Assistant Director of Agriculture, MobileSoil</h4>
+      <h4>Laboratory type:Soil Testing Laboratory</h4>
+      <h4>Mobile No: </h4>    
+    <div>
+</details>
+<details>
+  <summary style="background-color:lightgreen;">Vizianagaram</summary>
+      <h2>No of Centres:3</h2>
+      <div class="b">
+      <h4>Area:Vizianagarm</h4>
+      <h4>Lab Name 1: ASSISTANT DIRECTOR OF AGRICULTURE,</h4>
+      <h4>Lab Name 2: STL, Vizianagaram</h4>
+      <h4>Area:Parvathipuram</h4>
+      <h4>Lab Name 3:AMC, STL, Parvathipuram</h4>
+      <h4>Laboratory type:Soil Testing Laboratory</h4>
+      <h4>Mobile No: 8922-271930,8963-220032</h4>    
+    <div>
+</details>
+<details>
+  <summary style="background-color:lightgreen;">West Godavari</summary>
+      <h2>No of Centres:3</h2>
+      <div class="b">
+      <h4>Area:Jaggareddigudam</h4>
+      <h4>Lab Name 1: AMC Yard, Jangareddygudem</h4>
+      <h4>Lab Name 2: Agricultural Marketing Committee,Jangareddygudem</h4>
+      <h4>Area:Polavaram</h4>
+      <h4>Lab Name 3: Mandal Agriculture Office, POLAVARAM</h4>
+      <h4>Laboratory type:Soil Testing Laboratory</h4>
+      <h4>Mobile No: </h4>    
+    <div>
+</details>
+<details>
+  <summary style="background-color:lightgreen;">YSR Kadapa</summary>
+      <h2>No of Centres:3</h2>
+      <div class="b">
+      <h4>Area:Rayachoti</h4>
+      <h4>Lab Name 1: AMC, STL, Rayachoti</h4>
+      <h4>Lab Name 2: Agricultural Officer, Rayachoty</h4>
+      <h4>Area:Kadapa</h4>
+      <h4>Lab Name 3: STL, Kadapa</h4>
+      <h4>Laboratory type:Soil Testing Laboratory</h4>
+      <h4>Mobile No: 08562-231566</h4>    
+    <div>
+</details>
+
+
+
+
+</head>        
+ 
+<br><br><br>
+
+<div class="container">
+  <img src="{{ url_for('static', filename='green.png') }}" alt="crop_disease" style="width:1440px;height:300px;">
+  <div class="centered">
+  <h1>ABOUT US</h1>
+  <h3>mady by SHEKHAR BOPPANAPALLY</h3>
+  <h3>© Copyright 2021 @shekhar Boppanapally</h3>
+  <h3>for more queries about KISAAN HELP DESK please contact me at</h3>
+  <a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/">Linkedln.com!</a><br>
+  <a href="https://github.com/shekharboppanapally">Github.com!</a><br>
+  <a href="mail to:19211a0540@bvrit.ac.in">mail.com!</a>.<br>
+</html>

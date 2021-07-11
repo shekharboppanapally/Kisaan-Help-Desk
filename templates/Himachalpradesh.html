@@ -1,0 +1,159 @@
+<html>
+<head>
+<style>
+    div.a {
+  text-align: center;
+}
+div.b {
+  text-align: left;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+div.d {
+  text-align: right;
+}
+body {
+  
+  background-image:url("{{ url_for('static', filename='black.png') }}");
+  background-repeat: no-repeat;
+  background-size: 100% 10%;
+} 
+</style>
+
+<div class="d"><br>
+  <a href="{{ url_for('welcome') }}" style="font-size:25px" >&emsp;home 
+  <a href="{{ url_for('crop_prediction') }}" style="font-size:25px">&emsp;crop  
+  <a href="{{ url_for('fertilizer_rec') }}" style="font-size:25px" >&emsp;fertilizer
+  <a href="{{ url_for('crop_disease')}}" style="font-size:25px" >&emsp;disease
+  </a>
+</div>
+<div class="a"><br><br><br><br>
+<h1>Please select your District</h1>    
+<details>
+    <summary style="background-color:lightgreen;">Bilaspur</summary>
+        <h2>No of Centres:1</h2>
+        <div class="b">
+        <h4>Area:Bilaspur</h4>
+        <h4>Lab Name 1: Soil Testing Lab, Dhaulara, Bilaspur</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 1978-221076</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Chamba</summary>
+        <h2>No of Centres:1</h2>
+        <div class="b">
+        <h4>Area:Chamba</h4>
+        <h4>Lab Name 1: SOIL TESTING LABORATORY CHAMBA AT RAJPURA</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Hamirpur</summary>
+        <h2>No of Centres:1</h2>
+        <div class="b">
+        <h4>Area:Hamirpur</h4>
+        <h4>Lab Name 1: SOIL TESTING LAB. HAMIRPUR</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 01972-224373</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Kangra</summary>
+        <h2>No of Centres:2</h2>
+        <div class="b">
+        <h4>Area:Kangra</h4>
+        <h4>Lab Name 1: Mobile Soil Testing Laboratory	</h4>
+        <h4>Lab Name 2: SOIL TESTING LAB. PALAMPUR	</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 1894-230254</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Kullu</summary>
+        <h2>No of Centres:1</h2>
+        <div class="b">
+        <h4>Area:Kullu</h4>
+        <h4>Lab Name 1: Soil Testing Laboratory, Kullu</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 01902-224858</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Mandi</summary>
+        <h2>No of Centres:2</h2>
+        <div class="b">
+        <h4>Area:Mandi</h4>
+        <h4>Lab Name 1: Mobile Soil Testing</h4>
+        <h4>Lab Name 2: Soil Testing Lab. Sunder Nagar</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 1907-267103,</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Shimla</summary>
+        <h2>No of Centres:1</h2>
+        <div class="b">
+        <h4>Area:Shimla</h4>
+        <h4>Lab Name 1: Soil Testing Lab, Shimla-4	</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 0177-2650110</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Sirmaur</summary>
+        <h2>No of Centres:1</h2>
+        <div class="b">
+        <h4>Area:Paonta sahib</h4>
+        <h4>Lab Name 1: STL DHAULAKUAN	</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 01704-257444</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Solan</summary>
+        <h2>No of Centres:2</h2>
+        <div class="b">
+        <h4>Area:Paonta solan</h4>
+        <h4>Lab Name 1: Mobile Soil Testing Lab Solan (H.P)	</h4>
+        <h4>Lab Name 2: Soil Testing Laboratory Solan	</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 1792-230734</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Una</summary>
+        <h2>No of Centres:1</h2>
+        <div class="b">
+        <h4>Area:Una</h4>
+        <h4>Lab Name 1: Soil Testing Laboratory,una	</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+
+</head>        
+ 
+<br><br><br>
+
+<div class="container">
+  <img src="{{ url_for('static', filename='green.png') }}" alt="crop_disease" style="width:1440px;height:300px;">
+  <div class="centered">
+  <h1>ABOUT US</h1>
+  <h3>mady by SHEKHAR BOPPANAPALLY</h3>
+  <h3>© Copyright 2021 @shekhar Boppanapally</h3>
+  <h3>for more queries about KISAAN HELP DESK please contact me at</h3>
+  <a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/">Linkedln.com!</a><br>
+  <a href="https://github.com/shekharboppanapally">Github.com!</a><br>
+  <a href="mail to:19211a0540@bvrit.ac.in">mail.com!</a>.<br>
+</html>    

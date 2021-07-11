@@ -1,0 +1,86 @@
+<!Doctype Html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+x {
+  font-size: 20px;
+}
+
+div.a {
+  text-align: center;
+}
+div.b {
+  text-align: center;
+}
+div.c {
+  text-align: left;
+}
+div.d {
+  text-align: right;
+}
+body {
+  
+  background-image:url("{{ url_for('static', filename='farmer2.jpg') }}");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+</style>
+<div class="d"><br>
+  <a href="{{ url_for('welcome') }}" style="font-size:25px">&emsp;Home 
+  <a href="{{ url_for('soil_test')}}" style="font-size:25px" >&emsp;Soiltest  
+  <a href="{{ url_for('crop_prediction') }}" style="font-size:25px" >&emsp;Crop
+  <a href="{{ url_for('crop_disease') }}" style="font-size:25px" >&emsp;disease
+  </a>
+  </div>
+</head>
+<div class ="b"><br><br>
+<h1>The level of nitrogen(N)is low in your farm</h1><br><br>
+<h2>How to increase the level of nitrogen in farm ?</h2>
+<h3>1. Add sawdust or fine woodchips to your soil – the carbon in the sawdust/woodchips<br>
+love nitrogen and will help absorb and soak up and excess nitrogen.<br>
+2. Plant heavy nitrogen feeding plants – tomatoes, corn, broccoli, cabbage and spinach are<br> 
+examples of plants that thrive off nitrogen and will suck the nitrogen dry.<br>
+3. Water – soaking your soil with water will help leach the nitrogen deeper into your soil,<br> 
+effectively leaving less for your plants to use.<br>
+4. Sugar – In limited studies, it was shown that adding sugar to your soil can help potentially <br>
+reduce the amount of nitrogen is your soil. Sugar is partially composed of carbon, an element <br>
+which attracts and soaks up the nitrogen in the soil. This is similar concept to adding sawdust/woodchips<br> 
+which are high in carbon content.<br>
+5. Add composted manure to the soil.<br>
+6. Plant Nitrogen fixing plants like peas or beans.<br>
+7. Use NPK fertilizers with high N value.<br>
+8. Do nothing – It may seem counter-intuitive, but if you already have plants that are producing<br> 
+lots of foliage, it may be best to let them continue to absorb all the nitrogen to amend the soil for your next crops.<br>
+</div>
+<div class ="c">
+
+</h3>
+</div>
+<br><br><br><br><br>
+<div class="container">
+  <img src="{{ url_for('static', filename='green.png') }}" alt="crop_disease" style="width:1440px;height:350px;">
+  <div class="centered">
+  <h1>ABOUT US</h1>
+  <h3>mady by SHEKHAR BOPPANAPALLY</h3>
+  <h3>© Copyright 2021 @shekhar Boppanapally</h3>
+  <h3>for more queries about KISAAN HELP DESK please contact me at</h3>
+  <a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/">Linkedln.com!</a><br>
+  <a href="https://github.com/shekharboppanapally">Github.com!</a><br>
+  <a href="mail to:19211a0540@bvrit.ac.in">mail.com!</a>.<br> 
+
+  
+  </div>
+  </div>
+</style>
+</html>

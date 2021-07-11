@@ -1,0 +1,84 @@
+<!Doctype Html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+x {
+  font-size: 20px;
+}
+
+div.a {
+  text-align: center;
+}
+div.b {
+  text-align: center;
+}
+div.c {
+  text-align: left;
+}
+div.d {
+  text-align: right;
+}
+body {
+  
+  background-image:url("{{ url_for('static', filename='farmer.jpg') }}");
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+}
+</style>
+<div class="d"><br>
+  <a href="{{ url_for('welcome') }}" style="font-size:25px" >&emsp;home 
+  <a href="{{ url_for('soil_test')}}" style="font-size:25px" >&emsp;Soiltest   
+  <a href="{{ url_for('fertilizer_rec') }}" style="font-size:25px" >&emsp;fertilizer
+  <a href="{{ url_for('crop_disease')}}" style="font-size:25px" >&emsp;disease
+  </a>
+  </div>
+
+<div class="a"><br><br>
+<h1>Find out the most suitable crop to grow in your farm</h1>
+<form action="/submit" method='post'>
+  <label for="N">Nitrogen:</label><br>
+  <input type="text" id="N" name="N" value="0"><br><br>
+  <label for="P">Phosphorus:</label><br>
+  <input type="text" id="P" name="P" value="0"><br><br>
+  <label for="K">Potassium:</label><br>
+  <input type="text" id="K" name="K" value="0"><br><br>
+  <label for="temperature">temperature:</label><br>
+  <input type="text" id="temperature" name="temperature" value="0"><br><br>
+  <label for="humidity">humidity:</label><br>
+  <input type="text" id="humidity" name="humidity" value="0"><br><br>
+  <label for="ph">ph:</label><br>
+  <input type="text" id="ph" name="ph" value="0"><br><br>
+  <label for="rainfall">rainfall (in mm):</label><br>
+  <input type="text" id="rainfall" name="rainfall" value="0"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</div>
+</head>
+<br><br><br><br><br>
+<div class="container">
+  <img src="{{ url_for('static', filename='green.png') }}" alt="crop_disease" style="width:1440px;height:350px;">
+  <div class="centered">
+  <h1>ABOUT US</h1>
+  <h3>mady by SHEKHAR BOPPANAPALLY</h3>
+  <h3>© Copyright 2021 @shekhar Boppanapally</h3>
+  <h3>for more queries about KISAAN HELP DESK please contact me at</h3>
+  <a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/">Linkedln.com!</a><br>
+  <a href="https://github.com/shekharboppanapally">Github.com!</a><br>
+  <a href="mail to:19211a0540@bvrit.ac.in">mail.com!</a>.<br> 
+
+  
+  </div>
+  </div>
+</style>
+</html>

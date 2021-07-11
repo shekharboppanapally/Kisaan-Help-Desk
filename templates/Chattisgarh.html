@@ -1,0 +1,152 @@
+<html>
+<head>
+<style>
+    div.a {
+  text-align: center;
+}
+div.b {
+  text-align: left;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+div.d {
+  text-align: right;
+}
+body {
+  
+  background-image:url("{{ url_for('static', filename='black.png') }}");
+  background-repeat: no-repeat;
+  background-size: 100% 10%;
+} 
+</style>
+
+<div class="d"><br>
+  <a href="{{ url_for('welcome') }}" style="font-size:25px" >&emsp;home 
+  <a href="{{ url_for('crop_prediction') }}" style="font-size:25px">&emsp;crop   
+  <a href="{{ url_for('fertilizer_rec') }}" style="font-size:25px" >&emsp;fertilizer
+  <a href="{{ url_for('crop_disease')}}" style="font-size:25px" >&emsp;disease
+  </a>
+</div>
+<div class="a"><br><br><br><br>
+<h1>Please select your District</h1>    
+<details>
+    <summary style="background-color:lightgreen;">Balod</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Balod</h4>
+        <h4>Lab Name 1: Balod Mandi Soil Tesing Laboratory</h4>
+        <h4>Lab Name 2: Dondi Mini Soil Testing Lab</h4>
+        <h4>Lab Name 3: Gurur Mini Soil Testing Lab</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Balrampur</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Balrampur</h4>
+        <h4>Lab Name 1: Balrampur Mandi Soil Tesing Laboratory</h4>
+        <h4>Lab Name 2: Bhanora Mini Soil Tesitng Lab</h4>
+        <h4>Lab Name 3: KVK Mini Soil testing Lab Balrampur</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Bilaspur</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Bilaspur</h4>
+        <h4>Lab Name 1: Bilaspur Mandi Soil Tesing Laboratory	</h4>
+        <h4>Lab Name 2: Krishi Vigyan Kendra, Bilaspur</h4>
+        <h4>Lab Name 3: Soil Testing Lab. Bilaspur (S.T.L.)</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 07752-255024,07752-233885</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Gariyaband</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Gariyaband</h4>
+        <h4>Lab Name 1: Fingeshwar Mini Soil Testing Lab</h4>
+        <h4>Lab Name 2: Gariyaband New STL(Department)</h4>
+        <h4>Lab Name 3: kvk gariyaband Mini Soil Testing Lab</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Kanker</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Kanker</h4>
+        <h4>Lab Name 1: KVK Mini Soil testing Lab Kanker</h4>
+        <h4>Lab Name 2: Kanker Soil Tesing Laboratory (Under RKVY)</h4>
+        <h4>Lab Name 3: Soil Testing Lab. Kanker (M.S.T.L.)</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 07868-241467,07868-241130 </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Mahasamund</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Mahasamund</h4>
+        <h4>Lab Name 1: Mahasamund Mandi Soil Tesing Laboratory</h4>
+        <h4>Lab Name 2: Mahasamund Mini Soil Testing Lab</h4>
+        <h4>Lab Name 3: Mahasaund New STL(Department)</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Raigarh</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Raigarh</h4>
+        <h4>Lab Name 1: Raigarh Mandi Soil Tesing Laboratory</h4>
+        <h4>Lab Name 2: Raigarh Soil Tesing Laboratory (Under RKVY)</h4>
+        <h4>Lab Name 3: Dharamjaigarh Mini Soil Testing Lab</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Rajnandgoan</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Rajnandgoan</h4>
+        <h4>Lab Name 1: Chowki Mini Soil Testing Lab</h4>
+        <h4>Lab Name 2: Rajnandgaon Mandi Soil Tesing Laboratory</h4>
+        <h4>Lab Name 3: Soil Testing Lab. Rajnandgaon (S.T.L.)</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 07744-224700</h4>    
+    </div>
+</details>
+
+</head>        
+ 
+<br><br><br>
+
+<div class="container">
+  <img src="{{ url_for('static', filename='green.png') }}" alt="crop_disease" style="width:1440px;height:300px;">
+  <div class="centered">
+  <h1>ABOUT US</h1>
+  <h3>mady by SHEKHAR BOPPANAPALLY</h3>
+  <h3>© Copyright 2021 @shekhar Boppanapally</h3>
+  <h3>for more queries about KISAAN HELP DESK please contact me at</h3>
+  <a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/">Linkedln.com!</a><br>
+  <a href="https://github.com/shekharboppanapally">Github.com!</a><br>
+  <a href="mail to:19211a0540@bvrit.ac.in">mail.com!</a>.<br>
+</html>

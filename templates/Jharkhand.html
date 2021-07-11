@@ -1,0 +1,154 @@
+<html>
+<head>
+<style>
+    div.a {
+  text-align: center;
+}
+div.b {
+  text-align: left;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+div.d {
+  text-align: right;
+}
+body {
+  
+  background-image:url("{{ url_for('static', filename='black.png') }}");
+  background-repeat: no-repeat;
+  background-size: 100% 10%;
+} 
+</style>
+
+<div class="d"><br>
+  <a href="{{ url_for('welcome') }}" style="font-size:25px" >&emsp;home 
+  <a href="{{ url_for('crop_prediction') }}" style="font-size:25px">&emsp;crop  
+  <a href="{{ url_for('fertilizer_rec') }}" style="font-size:25px" >&emsp;fertilizer
+  <a href="{{ url_for('crop_disease')}}" style="font-size:25px" >&emsp;disease
+  </a>
+</div>
+<div class="a"><br><br><br><br>
+<h1>Please select your District</h1>    
+<details>
+    <summary style="background-color:lightgreen;">Bokaro</summary>
+        <h2>No of Centres:1</h2>
+        <div class="b">
+        <h4>Area:Bakaro</h4>
+        <h4>Lab Name 1: MINISOILTESTINGLAB,KVK,BOKARO</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No:09431-126991 </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Dhanbad</summary>
+        <h2>No of Centres:1</h2>
+        <div class="b">
+        <h4>Area:Dhanbad</h4>
+        <h4>Lab Name 1: SOIL TESTING LAB , KVK, DHANBAD</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Dhumka</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Dhumka</h4>
+        <h4>Lab Name 1: PPP, SOIL TESTING LAB,DUMKA</h4>
+        <h4>Lab Name 2: SOIL TESTING LAB DUMKA (STATE GOVT. LAB )	</h4>
+        <h4>Lab Name 3: SOIL TESTING LAB, KVK, DUMKA</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Giridih</summary>
+        <h2>No of Centres:1</h2>
+        <div class="b">
+        <h4>Area:Giridih</h4>
+        <h4>Lab Name 1: MINI SOILTESTING LAB,KVK, GIRIDIH</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Gumla</summary>
+        <h2>No of Centres:2</h2>
+        <div class="b">
+        <h4>Area:Dhumka</h4>
+        <h4>Lab Name 1: SOIL TESTING LAB, KVK, GUMLA, BISHUNPUR</h4>
+        <h4>Lab Name 2: SOIL TESTING LAB ,GUMLA (STATE GOVT. LAB )	</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Hazribagh</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:hazaribagh</h4>
+        <h4>Lab Name 1: SOIL TESTING LAB, HAZARIBAG (STATE GOVT.,LAB )</h4>
+        <h4>Lab Name 2: SOIL TESTING LAB,HOLY CROSS KVK, Hazaribag</h4>
+        <h4>Lab Name 3: SOIL TESTING LAB,HOLY CROSS KVK,HAZARIBAG</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 0654-6263083</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Latehar</summary>
+        <h2>No of Centres:2</h2>
+        <div class="b">
+        <h4>Area:Latehar</h4>
+        <h4>Lab Name 1:MINI SOILTESTING LAB,KVK, LATEHAR</h4>
+        <h4>Lab Name 2:SOIL TESTING LAB, LATEHAR (STATE GOVT. LAB)</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 7858-007273</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Ranchi</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Ranchi</h4>
+        <h4>Lab Name 1: SOIL TESTING LAB (KRISHI BHAWAN CAMPUS) RANCHI</h4>
+        <h4>Lab Name 2: SOIL TESTING LAB DEPTT. OF SSAC,BAU</h4>
+        <h4>Lab Name 3: SOILTESTING LAB,DIVYAYAN KVK RKM ASHRAMA, RANCHI</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 9334-051118,0651-2551008</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Simdega</summary>
+        <h2>No of Centres:2</h2>
+        <div class="b">
+        <h4>Area:Simdega</h4>
+        <h4>Lab Name 1: MINI SOILTESTING LAB, KVK, SIMDEGA</h4>
+        <h4>Lab Name 2: Krishi Vigyan Kendra (KVK),</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+</head>        
+ 
+<br><br><br>
+
+<div class="container">
+  <img src="{{ url_for('static', filename='green.png') }}" alt="crop_disease" style="width:1440px;height:300px;">
+  <div class="centered">
+  <h1>ABOUT US</h1>
+  <h3>mady by SHEKHAR BOPPANAPALLY</h3>
+  <h3>© Copyright 2021 @shekhar Boppanapally</h3>
+  <h3>for more queries about KISAAN HELP DESK please contact me at</h3>
+  <a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/">Linkedln.com!</a><br>
+  <a href="https://github.com/shekharboppanapally">Github.com!</a><br>
+  <a href="mail to:19211a0540@bvrit.ac.in">mail.com!</a>.<br>
+</html>    

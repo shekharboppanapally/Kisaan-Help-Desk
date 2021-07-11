@@ -1,0 +1,92 @@
+<!Doctype Html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+x {
+  font-size: 20px;
+}
+
+div.a {
+  text-align: center;
+}
+div.b {
+  text-align: center;
+}
+div.c {
+  text-align: left;
+}
+div.d {
+  text-align: right;
+}
+body {
+  
+  background-image:url("{{ url_for('static', filename='farmer2.jpg') }}");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+</style>
+<div class="d"><br>
+  <a href="{{ url_for('welcome') }}" style="font-size:25px">&emsp;Home 
+  <a href="{{ url_for('soil_test')}}" style="font-size:25px" >&emsp;Soiltest  
+  <a href="{{ url_for('crop_prediction') }}" style="font-size:25px" >&emsp;Crop
+  <a href="{{ url_for('crop_disease') }}" style="font-size:25px" >&emsp;disease
+  </a>
+  </div>
+</head>
+<div class ="b">
+<h1>The level of nitrogen(N) and phosphorus(P) is high in your farm</h1><br><br><br>
+</div>
+<div class ="b">
+<h2>How to reduce the level of Nitrogen in your farm ? </h2>
+<h3>1. Manure – adding manure is one of the simplest ways to amend your soil with nitrogen.<br> 
+Be careful as there are various types of manures with varying degrees of nitrogen.<br>
+2. Coffee grinds – use your morning addiction to feed your gardening habit! Coffee grinds are <br>
+considered a green compost material which is rich in nitrogen. Once the grounds break down, <br>
+your soil will be fed with delicious, delicious nitrogen. An added benefit to including <br>
+coffee grounds to your soil is while it will compost, it will also help provide increased drainage to your soil.<br>
+3. Plant nitrogen fixing plants – planting vegetables that are in Fabaceae family like peas, beans <br>
+and soybeans have the ability to increase nitrogen in your soil<br>
+4. Plant ‘green manure’ crops like cabbage, corn and brocolli<br>
+5. Use mulch (wet grass) while growing crops - Mulch can also include sawdust and scrap soft woods<br>
+</h3>
+<h2>How to reduce the level of Phosphorus in your farm ? </h2>
+<h3>1. Avoid adding manure – manure contains many key nutrients for your soil but typically including high<br> 
+levels of phosphorous. Limiting the addition of manure will help reduce phosphorus being added.<br>
+2. Use only phosphorus-free fertilizer – if you can limit the amount of phosphorous added to your soil,<br> 
+you can let the plants use the existing phosphorus while still providing other key nutrients such as <br>
+Nitrogen and Potassium. Find a fertilizer with numbers such as 10-0-10, where the zero represents no phosphorous.<br>
+3. Water your soil – soaking your soil liberally will aid in driving phosphorous out of the soil.<br> 
+This is recommended as a last ditch effort.<br>
+4. Plant nitrogen fixing vegetables to increase nitrogen without increasing phosphorous (like beans and peas).<br>
+5. Use crop rotations to decrease high phosphorous levels<br>
+</h3>
+
+</div>
+<br><br><br><br><br>
+<div class="container">
+  <img src="{{ url_for('static', filename='green.png') }}"  alt="crop_disease" style="width:1440px;height:350px;">
+  <div class="centered">
+  <h1>ABOUT US</h1>
+  <h3>mady by SHEKHAR BOPPANAPALLY</h3>
+  <h3>© Copyright 2021 @shekhar Boppanapally</h3>
+  <h3>for more queries about KISAAN HELP DESK please contact me at</h3>
+  <a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/">Linkedln.com!</a><br>
+  <a href="https://github.com/shekharboppanapally">Github.com!</a><br>
+  <a href="mail to:19211a0540@bvrit.ac.in">mail.com!</a>.<br> 
+
+  
+  </div>
+  </div>
+</style>
+</html>

@@ -1,0 +1,87 @@
+<!Doctype Html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+x {
+  font-size: 20px;
+}
+
+div.a {
+  text-align: center;
+}
+div.b {
+  text-align: center;
+}
+div.c {
+  text-align: left;
+}
+div.d {
+  text-align: right;
+}
+body {
+  
+        background-image:url("{{ url_for('static', filename='farmer.jpg') }}");
+        background-repeat: no-repeat;
+        background-size: 100% 90%;
+}
+</style>
+<div class="d"><br>
+  <a href="{{ url_for('welcome') }}" style="font-size:25px">&emsp;Home 
+  <a href="{{ url_for('soil_test')}}" style="font-size:25px" >&emsp;Soiltest  
+  <a href="{{ url_for('crop_prediction') }}" style="font-size:25px" >&emsp;Crop
+  <a href="{{ url_for('crop_disease') }}" style="font-size:25px" >&emsp;disease
+  </a>
+  </div>
+</head>
+<div class ="b"><br><br>
+<h1>The level of phosphorus(P) is low in your farm</h1><br><br>
+
+<h2>1. Bone meal – a fast acting source that is made from ground animal bones which is rich in phosphorous.<br>
+2. Rock phosphate – a slower acting source where the soil needs to convert the <br>
+rock phosphate into phosphorous that the plants can use.<br>
+3. Phosphorus Fertilizers – applying a fertilizer with a high phosphorous content in<br> 
+the NPK ratio (example: 10-20-10, 20 being phosphorous percentage).<br>
+4. Organic compost – adding quality organic compost to your soil will help increase phosphorous content.<br>
+5. Manure – as with compost, manure can be an excellent source of phosphorous for your plants.<br>
+6. Clay soil – introducing clay particles into your soil can help retain & fix phosphorus deficiencies.<br>
+7. Ensure proper soil pH – having a pH in the 6.0 to 7.0 range has been scientifically <br>
+proven to have the optimal phosphorus uptake in plants.<br>
+8. If soil pH is low, add lime or potassium carbonate to the soil as fertilizers. Pure calcium<br> 
+carbonate is very effective in increasing the pH value of the soil.<br>
+9. If pH is high, addition of appreciable amount of organic matter will help acidify the soil.<br> 
+Application of acidifying fertilizers, such as ammonium sulfate, can help lower soil pH.<br>
+</h3>
+
+</div>
+<div class ="c">
+
+</h3>
+</div>
+<br><br><br><br><br>
+<div class="container">
+  <img src="{{ url_for('static', filename='green.png') }}"  alt="crop_disease" style="width:1440px;height:350px;">
+  <div class="centered">
+  <h1>ABOUT US</h1>
+  <h3>mady by SHEKHAR BOPPANAPALLY</h3>
+  <h3>© Copyright 2021 @shekhar Boppanapally</h3>
+  <h3>for more queries about KISAAN HELP DESK please contact me at</h3>
+  <a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/">Linkedln.com!</a><br>
+  <a href="https://github.com/shekharboppanapally">Github.com!</a><br>
+  <a href="mail to:19211a0540@bvrit.ac.in">mail.com!</a>.<br> 
+
+  
+  </div>
+  </div>
+</style>
+</html>

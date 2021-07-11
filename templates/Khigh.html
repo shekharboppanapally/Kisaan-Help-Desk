@@ -1,0 +1,83 @@
+<!Doctype Html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+x {
+  font-size: 20px;
+}
+
+div.a {
+  text-align: center;
+}
+div.b {
+  text-align: center;
+}
+div.c {
+  text-align: left;
+}
+div.d {
+  text-align: right;
+}
+body {
+  
+  background-image:url("{{ url_for('static', filename='farmer2.jpg') }}");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+</style>
+<div class="d"><br>
+  <a href="{{ url_for('welcome') }}" style="font-size:25px">&emsp;Home 
+  <a href="{{ url_for('soil_test')}}" style="font-size:25px" >&emsp;Soiltest    
+  <a href="{{ url_for('crop_prediction') }}" style="font-size:25px" >&emsp;Crop
+  <a href="{{ url_for('crop_disease') }}" style="font-size:25px" >&emsp;disease
+  </a>
+  </div>
+</head>
+<div class ="b"><br><br><br>
+<h1>The level of potassium(K) is high in your farm</h1><br><br>
+</div>
+<div class ="b">
+<h2>How to reduce the level of Potassium in your farm ? </h2>
+<h3>1. Loosen the soil deeply with a shovel, and water thoroughly to dissolve water-soluble potassium.<br> 
+Allow the soil to fully dry, and repeat digging and watering the soil two or three more times.<br>
+2. Sift through the soil, and remove as many rocks as possible, using a soil sifter. Minerals occurring<br> 
+in rocks such as mica and feldspar slowly release potassium into the soil slowly through weathering.<br>
+3. Stop applying potassium-rich commercial fertilizer. Apply only commercial fertilizer that has a '0' <br>
+in the final number field. Commercial fertilizers use a three number system for measuring levels of nitrogen,<br> 
+phosphorous and potassium. The last number stands for potassium. Another option is to stop using commercial <br>
+fertilizers all together and to begin using only organic matter to enrich the soil.<br>
+4. Mix crushed eggshells, crushed seashells, wood ash or soft rock phosphate to the soil to add calcium.<br> 
+Mix in up to 10 percent of organic compost to help amend and balance the soil.<br>
+5. Use NPK fertilizers with low K levels and organic fertilizers since they have low NPK values.<br>
+6. Grow a cover crop of legumes that will fix nitrogen in the soil. This practice will meet the soil’s needs<br> 
+for nitrogen without increasing phosphorus or potassium.
+</h3>
+</div>
+<br><br><br><br><br>
+<div class="container">
+  <img src="{{ url_for('static', filename='green.png') }}" alt="crop_disease" style="width:1440px;height:300px;">
+  <div class="centered">
+  <h1>ABOUT US</h1>
+  <h3>mady by SHEKHAR BOPPANAPALLY</h3>
+  <h3>© Copyright 2021 @shekhar Boppanapally</h3>
+  <h3>for more queries about KISAAN HELP DESK please contact me at</h3>
+  <a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/">Linkedln.com!</a><br>
+  <a href="https://github.com/shekharboppanapally">Github.com!</a><br>
+  <a href="mail to:19211a0540@bvrit.ac.in">mail.com!</a>.<br> 
+
+  
+  </div>
+  </div>
+</style>
+</html>

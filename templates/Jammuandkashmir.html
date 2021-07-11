@@ -1,0 +1,187 @@
+<html>
+<head>
+<style>
+    div.a {
+  text-align: center;
+}
+div.b {
+  text-align: left;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+div.d {
+  text-align: right;
+}
+body {
+  
+  background-image:url("{{ url_for('static', filename='black.png') }}");
+  background-repeat: no-repeat;
+  background-size: 100% 10%;
+} 
+</style>
+
+<div class="d"><br>
+  <a href="{{ url_for('welcome') }}" style="font-size:25px" >&emsp;home 
+  <a href="{{ url_for('crop_prediction') }}" style="font-size:25px">&emsp;crop   
+  <a href="{{ url_for('fertilizer_rec') }}" style="font-size:25px" >&emsp;fertilizer
+  <a href="{{ url_for('crop_disease')}}" style="font-size:25px" >&emsp;disease
+  </a>
+</div>
+<div class="a"><br><br><br><br>
+<h1>Please select your District</h1>    
+<details>
+    <summary style="background-color:lightgreen;">Anantnag</summary>
+        <h2>No of Centres:2</h2>
+        <div class="b">
+        <h4>Area:Banglore rural</h4>
+        <h4>Lab Name 1: KVK ANANTNAG	</h4>
+        <h4>Lab Name 2: Soil Testing Laboratory, Anantnag</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 01932-233032</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Bandipora</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Bandipora</h4>
+        <h4>Lab Name 1: KVK BANDIPORA		</h4>
+        <h4>Lab Name 2: Soil Testing Lab. Watapura Payeen	</h4>
+        <h4>Lab Name 3: Soil Testing Laboratory, Bandipora	</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 01957-225715</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Baramulla</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Baramulla</h4>
+        <h4>Lab Name 1: Soil Testing Lab,Noorbagh Baramulla		</h4>
+        <h4>Lab Name 2: Soil Testing Laboratory Baramulla	</h4>
+        <h4>Lab Name 3: MSTL_BARAMULLA HORTICULTURE	</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 1952-234713</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Doda</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Doda</h4>
+        <h4>Lab Name 1: Mobile Soil Testing Laboratory,Agriculture complex</h4>
+        <h4>Lab Name 2: SOIL TESTING LAB DODA	</h4>
+        <h4>Lab Name 3: Soil Testing Laboratory,Agriculture complex,Doda.	</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: </h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Jammu</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Jammu</h4>
+        <h4>Lab Name 1: KVK JAMMU</h4>
+        <h4>Lab Name 2: Regional Sericulture Research Station Jammu	</h4>
+        <h4>Lab Name 3: Mobile Soil Testing Laboratory,Krishi Bhawan,Talab</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 1923-250788,01923-263523</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Kargil</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:kargil</h4>
+        <h4>Lab Name 1: KVK KARGIL</h4>
+        <h4>Lab Name 2: Soil Testing Lab,Kargil	</h4>
+        <h4>Lab Name 3: Soil Testing Laboratory, Kargil</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 1923-250788,01923-263523</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Kulgam</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:kulgam</h4>
+        <h4>Lab Name 1:KVK, KULGAM</h4>
+        <h4>Lab Name 2: Soil Plant & Water Testing Laboratory Kulgam	</h4>
+        <h4>Lab Name 3: Soil Testing Lab.Kulgam</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 01931-213492,1931-260059</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Kupwara</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:kupwara</h4>
+        <h4>Lab Name 1: STL KVK KUPWARA</h4>
+        <h4>Lab Name 2: Soil Testing Lab,Kupwara	</h4>
+        <h4>Lab Name 3: Soil Testing Laboratory KUPWARA	</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 1954-262222,01955-252094</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Poonch</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Poonch</h4>
+        <h4>Lab Name 1: Mobile Soil Testing Laboratory,Poonch</h4>
+        <h4>Lab Name 2: Soil Testing Laboratory,Poonch	</h4>
+        <h4>Lab Name 3: KVK POONCH	</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 011965-221796</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Ramban</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:ramban</h4>
+        <h4>Lab Name 1: Mobile Soil Testing Laboratory,Ramban</h4>
+        <h4>Lab Name 2: Soil Testing Laboratory Ramban	</h4>
+        <h4>Lab Name 3: Soil Testing Laboratory,Ramban	</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 01998-266059</h4>    
+    </div>
+</details>
+<details>
+    <summary style="background-color:lightgreen;">Srinagar</summary>
+        <h2>No of Centres:3</h2>
+        <div class="b">
+        <h4>Area:Srinagar</h4>
+        <h4>Lab Name 1: Fertilizer Quality Control Lab,Srinagar</h4>
+        <h4>Lab Name 2: Organic & Bio Fertilizer Quality Control Lab,Srinagar	</h4>
+        <h4>Lab Name 3: Soil & Leaf Analysis Laboratory	</h4>
+        <h4>Laboratory type:Soil Testing Laboratory</h4>
+        <h4>Mobile No: 0194-2311484</h4>    
+    </div>
+</details>
+
+</head>        
+ 
+<br><br><br>
+
+<div class="container">
+  <img src="{{ url_for('static', filename='green.png') }}" alt="crop_disease" style="width:1440px;height:300px;">
+  <div class="centered">
+  <h1>ABOUT US</h1>
+  <h3>mady by SHEKHAR BOPPANAPALLY</h3>
+  <h3>© Copyright 2021 @shekhar Boppanapally</h3>
+  <h3>for more queries about KISAAN HELP DESK please contact me at</h3>
+  <a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/">Linkedln.com!</a><br>
+  <a href="https://github.com/shekharboppanapally">Github.com!</a><br>
+  <a href="mail to:19211a0540@bvrit.ac.in">mail.com!</a>.<br>
+</html>    
