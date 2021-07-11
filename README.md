@@ -49,3 +49,12 @@ Flask Frame Works
 **You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.**  
 
 
+# Future Improvements  
+This was my first big project so there are lot of things to improve upon
+=>CSS code is totally messed up 😔  
+=>Frontend can be made more nicer (I suck at frontend development) 😢    
+=>Additional plant images can be collected to make the disease detection part more robust and generalized 🤕  
+=>Trying to add Crop yeild prediction😕  
+
+
+
