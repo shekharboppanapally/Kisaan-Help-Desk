@@ -50,7 +50,7 @@ Flask Frame Works
 
 
 # Future Improvements  
-This was my first big project so there are lot of things to improve upon
+This was my first big project so there are lot of things to improve upon  
 =>CSS code is totally messed up 😔  
 =>Frontend can be made more nicer (I suck at frontend development) 😢    
 =>Additional plant images can be collected to make the disease detection part more robust and generalized 🤕  
