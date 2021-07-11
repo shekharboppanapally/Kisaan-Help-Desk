@@ -29,14 +29,23 @@ If you have any doubt or want to contribute feel free to [email](19211a0540@bvri
 This website is deployed in Heroku you can access it [here](https://kisaan-help-desk.herokuapp.com/)  
 
 # Requirements  
-Kaggle  
-Google Colab  
-Visula Studi Code  
-GitHub  
-Heroku  
-**Languages**  
+**Kaggle**    
+I collected the datasets from Kaggle to build my ML models
+**Google Colab**  
+I used the colab notebooks to build my ML models using Python Language  
+**Visula Studio Code**  
+I used VS Code editor for building my Front end using HTML and CSS and integrating it in Flask Frame works  
+**GitHub**  
+I used github for Deployement and to store my Code for future reference    
+**Heroku**  
+I used Heroku to Deploy my project/website  
+# Languages  
 Python   
 HTML  
 CSS  
+Flask Frame Works  
+
+# Usage  
+**You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.**  
 
 
