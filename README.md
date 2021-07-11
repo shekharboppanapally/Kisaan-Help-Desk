@@ -46,11 +46,8 @@ CSS
 Flask Frame Works  
 
 # Usage  
-**You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.  ![Screenshot (200)](https://user-images.githubusercontent.com/71584572/125191346-82d99480-e25f-11eb-9905-18f09e93da2a.png)
-
-© Copyright 2021 @shekhar Boppanapally**  
-
-
+**You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.    
+© Copyright 2021 @shekhar Boppanapally**    
 # Future Improvements  
 This was my first big project so there are lot of things to improve upon  
 =>CSS code is totally messed up 😔  
@@ -59,6 +56,13 @@ This was my first big project so there are lot of things to improve upon
 =>Trying to add Crop yeild prediction😕  
 
 # ScreenShots 
+![Screenshot (200)](https://user-images.githubusercontent.com/71584572/125191410-efed2a00-e25f-11eb-8006-583aecf152be.png)  
+![Screenshot (201)](https://user-images.githubusercontent.com/71584572/125191445-1f9c3200-e260-11eb-8f8b-bbec66c1894c.png)  
+![Screenshot (204)](https://user-images.githubusercontent.com/71584572/125191470-3e9ac400-e260-11eb-98de-c744f8b18081.png)  
+![Screenshot (205)](https://user-images.githubusercontent.com/71584572/125191486-55d9b180-e260-11eb-998c-ce7d5870c07e.png)
+
+
+
 
 
 
