@@ -57,6 +57,16 @@ This was my first big project so there are lot of things to improve upon
 
 # ScreenShots 
 
+![Screenshot (200)](https://user-images.githubusercontent.com/71584572/125455871-0d7da818-0874-43ee-b1e5-3607034c0d2c.png)
+![Screenshot (201)](https://user-images.githubusercontent.com/71584572/125456009-ff9d9f27-25f3-4e42-a673-f50c2ea39aac.png)
+![Screenshot (202)](https://user-images.githubusercontent.com/71584572/125456079-a0de4057-6352-417a-8cb5-eac5f5d7f833.png)
+![Screenshot (205)](https://user-images.githubusercontent.com/71584572/125456145-6809d966-800c-471b-85af-3894edf0bd43.png)
+![Screenshot (206)](https://user-images.githubusercontent.com/71584572/125456218-9f40a824-9d7b-4125-ad55-77acc0ca9d61.png)
+![Screenshot (207)](https://user-images.githubusercontent.com/71584572/125456232-28762b11-b049-435c-a314-491597fd80c1.png)
+![Screenshot (208)](https://user-images.githubusercontent.com/71584572/125456255-ef20fc8d-9fad-4d1e-bed1-a08ade39b238.png)
+![Screenshot (209)](https://user-images.githubusercontent.com/71584572/125456294-56facd1e-ec60-49ae-b2d0-3b430995e8ab.png)
+
+
 
 
 
