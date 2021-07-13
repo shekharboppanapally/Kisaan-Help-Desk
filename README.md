@@ -57,14 +57,16 @@ This was my first big project so there are lot of things to improve upon
 
 # ScreenShots 
 
-![Screenshot (200)](https://user-images.githubusercontent.com/71584572/125455871-0d7da818-0874-43ee-b1e5-3607034c0d2c.png)
-![Screenshot (201)](https://user-images.githubusercontent.com/71584572/125456009-ff9d9f27-25f3-4e42-a673-f50c2ea39aac.png)
-![Screenshot (202)](https://user-images.githubusercontent.com/71584572/125456079-a0de4057-6352-417a-8cb5-eac5f5d7f833.png)
-![Screenshot (205)](https://user-images.githubusercontent.com/71584572/125456145-6809d966-800c-471b-85af-3894edf0bd43.png)
-![Screenshot (206)](https://user-images.githubusercontent.com/71584572/125456218-9f40a824-9d7b-4125-ad55-77acc0ca9d61.png)
-![Screenshot (207)](https://user-images.githubusercontent.com/71584572/125456232-28762b11-b049-435c-a314-491597fd80c1.png)
-![Screenshot (208)](https://user-images.githubusercontent.com/71584572/125456255-ef20fc8d-9fad-4d1e-bed1-a08ade39b238.png)
-![Screenshot (209)](https://user-images.githubusercontent.com/71584572/125456294-56facd1e-ec60-49ae-b2d0-3b430995e8ab.png)
+![Screenshot (216)](https://user-images.githubusercontent.com/71584572/125457055-cb49cb8c-6795-4e25-b835-de878a950257.png)
+![Screenshot (217)](https://user-images.githubusercontent.com/71584572/125457113-b071ae6f-408f-47fe-9e7d-dde0dbfbd339.png)
+![Screenshot (218)](https://user-images.githubusercontent.com/71584572/125457184-f7716b3a-b51f-469a-907d-7c95e6d0e2f3.png)
+![Screenshot (219)](https://user-images.githubusercontent.com/71584572/125457214-bac87d45-5847-46ed-be38-e2b31b44cd96.png)
+![Screenshot (220)](https://user-images.githubusercontent.com/71584572/125457226-131ca4d6-2b11-4183-b27a-a29bee37cb1b.png)
+![Screenshot (221)](https://user-images.githubusercontent.com/71584572/125457232-7ab67f4f-f510-4471-92a9-e955ef512d5d.png)
+![Screenshot (222)](https://user-images.githubusercontent.com/71584572/125457281-eb301901-b25c-4572-bb07-3faa3abf8fd7.png)
+![Screenshot (223)](https://user-images.githubusercontent.com/71584572/125457319-8467546b-fbe3-4a04-8a0d-aa81f4a8a31a.png)
+![Screenshot (224)](https://user-images.githubusercontent.com/71584572/125457340-f8ddfc5f-7057-4a26-ad04-9373b2368eaf.png)
+
 
 
 
